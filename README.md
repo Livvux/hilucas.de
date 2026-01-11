@@ -1,10 +1,11 @@
-# Peter Steinberger's Personal Website
+Lucas' Personal Website
 
 This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com).
 
 ## About
 
-I'm Peter Steinberger, an iOS developer, entrepreneur, and open source contributor. This website hosts my personal blog and information about my work.
+I'm Lucas.
+This site template is by https://steipete.me/ < Peter
 
 ## Project Structure
 
