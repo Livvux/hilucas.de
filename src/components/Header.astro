@@ -69,7 +69,7 @@ const isActive = (path: string) => {
         >
           <li class="col-span-2">
             <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              Posts
+              Beiträge
             </a>
           </li>
           <!-- <li class="col-span-2">
@@ -79,7 +79,7 @@ const isActive = (path: string) => {
           </li> -->
           <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-              About
+              Über mich
             </a>
           </li>
           {
@@ -103,18 +103,18 @@ const isActive = (path: string) => {
             )
           }
           <li class="col-span-1 flex items-center justify-center">
-            <LinkButton
-              href="/search"
-              class:list={[
-                "focus-outline flex p-3 sm:p-1",
-                { "[&>svg]:stroke-accent": isActive("/search") },
-              ]}
-              ariaLabel="search"
-              title="Search"
-            >
-              <IconSearch />
-              <span class="sr-only">Search</span>
-            </LinkButton>
+             <LinkButton
+                href="/search"
+                class:list={[
+                  "focus-outline flex p-3 sm:p-1",
+                  { "[&>svg]:stroke-accent": isActive("/search") },
+                ]}
+                ariaLabel="suche"
+                title="Suche"
+              >
+                <IconSearch />
+                <span class="sr-only">Suche</span>
+              </LinkButton>
           </li>
           {
             SITE.lightAndDarkMode && (

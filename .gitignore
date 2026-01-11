@@ -38,3 +38,7 @@ src/content/temp/
 
 # jetbrains setting folder
 .idea/
+.vercel
+
+# Playwright MCP
+.playwright-mcp/

@@ -7,11 +7,12 @@ import Layout from "@/layouts/Layout.astro";
 import Main from "@/layouts/Main.astro";
 
 const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
+
 ---
 
-<Layout title={`Search | ${SITE.title}`} description="Search through Peter Steinberger's blog posts on iOS development, Swift, and open source projects.">
+<Layout title={`Suche | ${SITE.title}`} description="Durchsuche Lucas' Blog-Beiträge zu Webentwicklung, SEO und Open Source Projekten.">
   <Header />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
+  <Main pageTitle="Suche" pageDesc="Durchsuche alle Artikel ...">
     <div id="pagefind-search" transition:persist data-backurl={backUrl}></div>
   </Main>
   <Footer />
@@ -71,7 +72,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       // Auto-focus the search input and add placeholder
       if (searchInput) {
         searchInput.focus();
-        searchInput.placeholder = "Search posts, e.g. 'Swift concurrency'";
+        searchInput.placeholder = "Beiträge durchsuchen, z.B. 'Webentwicklung'";
       }
       searchInput?.addEventListener("input", resetSearchParam);
       clearButton?.addEventListener("click", resetSearchParam);
