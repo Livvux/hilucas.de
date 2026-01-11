@@ -21,7 +21,7 @@ const featuredPosts = posts2025AndLater.filter(({ data }) => data.featured);
 const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 ---
 
-<Layout description="Peter Steinberger: AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.">
+<Layout description="Lucas Kleipödszus: Fullstack Developer aus Deutschland. Spezialist für Webdesign, SEO und innovative digitale Lösungen.">
   <StructuredData type="WebSite" data={{}} />
   <StructuredData type="Person" data={{}} />
   <Header />
@@ -29,16 +29,16 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
     <section id="hero" class="pt-6 pb-4">
       <div class="flex flex-col sm:flex-row items-start gap-4">
         <a href="/about" class="block mx-auto sm:mx-0 group">
-          <img 
-            src="/peter-avatar.jpg" 
-            alt="Peter Steinberger" 
+          <img
+            src="/livvux-avatar.jpg"
+            alt="Lucas Kleipödszus"
             class="w-40 h-40 rounded-full object-cover flex-shrink-0 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
           />
         </a>
         <div class="flex-1 text-center sm:text-left">
           <div class="flex items-center gap-2 justify-center sm:justify-start">
             <h1 class="my-2 inline-block text-2xl font-bold sm:my-4 sm:text-3xl">
-              Hi, I'm @steipete.
+              Hallo, ich bin @Livvux.
             </h1>
             <a
               target="_blank"
@@ -56,8 +56,9 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
             </a>
           </div>
           <p>
-            AI-powered tools from Swift roots to web frontiers.<br />
-            Every commit lands on GitHub for you to fork & remix.
+            Fullstack Developer aus Rastatt, Deutschland.<br />
+            Spezialist für Webdesign, SEO und innovative digitale Lösungen.<br />
+            Alles als Open Source auf GitHub verfügbar.
           </p>
           {
             // only display if at least one social link is enabled
@@ -77,7 +78,7 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">Hervorgehoben</h2>
             <ul>
               {featuredPosts.map((data) => (
                 <Card variant="h3" {...data} showImage={false} />
@@ -92,6 +93,7 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
+          <h2 class="text-2xl font-semibold tracking-wide mb-6">Aktuelle Beiträge</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -104,7 +106,7 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        Alle Beiträge
         <IconArrowRight class="inline-block" />
       </LinkButton>
     </div>

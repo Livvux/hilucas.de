@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://hilucas.de/",
+  author: "Lucas Kleipödszus",
+  profile: "https://hilucas.de/about",
+  desc: "Fullstack Developer aus Deutschland. Spezialist für Webdesign, SEO und innovative digitale Lösungen. Jedes Projekt ist Open Source auf GitHub.",
+  title: "Lucas Kleipödszus",
+  ogImage: "livvux-avatar.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -45,12 +45,12 @@ export const SITE: Site = {
   showBackButton: false,
   editPost: {
     enabled: true,
-    text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    text: "Auf GitHub bearbeiten",
+    url: "https://github.com/Livvux/hilucas.de/edit/main/",
   },
   dynamicOgImage: true,
-  lang: "en",
-  timezone: "America/Los_Angeles",
+  lang: "de",
+  timezone: "Europe/Berlin",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -64,23 +64,23 @@ export const NAV_LINKS: SocialLink[] = [
   },
   {
     href: "/about",
-    label: "About",
+    label: "Über mich",
   },
 ];
 
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/Livvux",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
-    label: "Twitter",
+    href: "https://x.com/Livvux",
+    label: "X",
   },
   {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "https://www.linkedin.com/in/lucas-kleipoedszus/",
+    label: "LinkedIn",
   },
   {
     href: "/rss.xml",

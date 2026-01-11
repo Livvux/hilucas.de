@@ -1,26 +1,26 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
-  const markdownContent = `# Peter Steinberger (@steipete)
+  const markdownContent = `# Lucas Kleipödszus (@Livvux)
 
-AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.
+Fullstack Developer aus Deutschland. Spezialist für Webdesign, SEO und innovative digitale Lösungen. Alles als Open Source auf GitHub verfügbar.
 
 ## Navigation
 
-- [About](/about.md)
-- [Recent Posts](/posts.md)
-- [Archives](/archives.md)
+- [Über mich](/about.md)
+- [Aktuelle Beiträge](/posts.md)
+- [Archiv](/archives.md)
 - [RSS Feed](/rss.xml)
 
 ## Links
 
-- Twitter: [@steipete](https://twitter.com/steipete)
-- GitHub: [@steipete](https://github.com/steipete)
-- Email: steipete@gmail.com
+- X: [@Livvux](https://x.com/Livvux)
+- GitHub: [@Livvux](https://github.com/Livvux)
+- Email: livvux@gmail.com
 
 ---
 
-*This is the markdown-only version of steipete.me. Visit [steipete.me](https://steipete.me) for the full experience.*`;
+*Dies ist die Markdown-Version von hilucas.de. Besuche [hilucas.de](https://hilucas.de) für die volle Erfahrung.*`;
 
   return new Response(markdownContent, {
     status: 200,
