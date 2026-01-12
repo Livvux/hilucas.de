@@ -1,7 +1,7 @@
 ---
 title: "SEO für Fahrschulen 2026: Die komplette Checkliste (mit Template)"
 description: "Fahrschulen haben 2026 ein Problem: Wer nicht im Local Pack oder in den AI-Overviews auftaucht, existiert digital quasi nicht. Der aktuelle Standard für 2026 – kein Bla-Bla, nur die Hebel, die für Anmeldungen sorgen."
-pubDatetime: 2026-01-12T10:00:00+01:00
+pubDatetime: 2026-01-12T06:00:00+01:00
 tags:
   - SEO
   - Marketing
