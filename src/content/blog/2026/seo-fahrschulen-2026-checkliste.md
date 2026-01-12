@@ -20,6 +20,8 @@ Dieser Guide ist der aktuelle Standard für 2026. Kein Bla-Bla, nur die Hebel, d
 
 ## **1. Local SEO: Das Fundament (Google Business Profile)**
 
+![Local SEO Fundament - Google Business Profile](/assets/img/2026/seo-fahrschulen-2026-checkliste/localseo.webp)
+
 Für 90% der Fahrschulen ist das Google Unternehmensprofil wichtiger als die eigentliche Website. Hier entscheidet sich das Spiel.
 
 **Vollständigkeit:** Jedes Feld muss ausgefüllt sein. Attribute wie "LGBTQ+ freundlich" oder "Barrierefreier Zugang" sind 2026 Rankingfaktoren.
